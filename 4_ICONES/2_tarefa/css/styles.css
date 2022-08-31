@@ -1,0 +1,21 @@
+.bi.bi-emoji-smile{
+    font-size: 30px;
+    color: green;    
+}
+
+.bi.bi-hand-thumbs-up{
+    font-size: 30px;
+    color: gold;    
+}
+
+.bi.bi-speedometer{
+    font-size: 30px;
+    color: lightcoral;
+}
+
+.container 
+.row{
+    height: 100%;
+    border: 1px solid red;
+    padding: 10px;
+}
