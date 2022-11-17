@@ -131,11 +131,11 @@ h2 {
 }
 
 /* Positions */
-/* static */
-/* relative */
-/* fixed */
-/* absolute */
-/* sticky */
+/* static - flow no html, não é alterado por top, left, right e bottom */
+/* relative - flow no html, ela é alterada pelo top, left, right e bottom */
+/* fixed - posiciona em qualquer lugar da tela, e é posicionada em relação ao HTML */
+/* absolute - posiciona em qualquer lugar, e ela respeita o elemento entecessor*/
+/* sticky - está flow do HTML, porém ao passar o scroll ela funciona com fixed */
 
 .div-position {
     width: 500px;
@@ -150,16 +150,35 @@ h2 {
 
 .relative {
     position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
 }
 
 .fixed {
     position: fixed;
-}
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+  }
 
 .absolute {
     position: absolute;
+    background-color: purple;
+    right: 0px;
+    top: 0px;
 }
 
 .sticky {
     position: sticky;
+    background-color: grey;
+    top: 0px;
+}
+
+.mini-div {
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  left: 0px;
 }
