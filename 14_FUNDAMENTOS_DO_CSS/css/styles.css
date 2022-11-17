@@ -182,3 +182,32 @@ h2 {
   top: 0px;
   left: 0px;
 }
+
+/* Float */
+.container {
+  padding: 50px;
+}
+
+.div-float {
+  overflow: auto;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.img-float {  
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.p-float {
+  color: #000;
+}
+
+.clear{
+  clear: both;
+}
