@@ -1,35 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agência</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <!-- banner -->
-        <header>
-            <div class="banner">
-                <div class="box-container">
-                    <div class="box-background"></div>
-                    <div class="box-banner-title">
-                        <h1>Agência X</h1>
-                        <p>Desenvolvendo os seus sistemas</p>
-                    </div>
-                </div>
-                <div class="company-info-container">
-                    <div class="company-info-background"></div>
-                    <div class="company-info-titlebox">
-                        <h2>Seja bem vindo ao nosso site</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laboriosam sequi nostrum fugiat quo itaque deleniti unde molestias, exercitationem alias quisquam error nam numquam dolore reiciendis amet optio, quae sed!</p>
-                    </div>
+      <!-- banner -->
+      <header>
+        <div class="banner">
+          <div class="box-container">
+            <div class="box-background"></div>
+            <div class="box-banner-title">
+              <h1>Agência X</h1>
+              <p>Desenvolvendo os seus sistemas</p>
+            </div>
+          </div>
+          <div class="company-info-container">
+            <div class="company-info-background"></div>
+            <div class="company-info-titlebox">
+              <h2>Seja bem vindo ao nosso site</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                laboriosam sequi nostrum fugiat quo itaque deleniti unde
+                molestias, exercitationem alias quisquam error nam numquam
+                dolore reiciendis amet optio, quae sed!
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- seção de serviços -->
+      <section>
+        <div class="services-container">
+          <div class="service-box">
+            <div class="service-title" id="gerenciamento-box">
+              <p>Gerenciamento de Projetos</p>
+            </div>
+            <div class="service-description">
+              <h3 id="gerenciamento-title">Lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                beatae. Nulla aperiam enim accusantium quae doloribus, nisi
+                saepe praesentium in atque, omnis fugit rem id veniam dicta
+                impedit eos facilis?
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-title" id="dev-box">
+              <p>Desenvolvimento</p>
+            </div>
+            <div class="service-description">
+              <h3 id="dev-title">Lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                beatae. Nulla aperiam enim accusantium quae doloribus, nisi
+                saepe praesentium in atque, omnis fugit rem id veniam dicta
+                impedit eos facilis?
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <div class="service-title" id="design-box">
+              <p>Dising UX/UI</p>
+            </div>
+            <div class="service-description">
+              <h3 id="design-title">Lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                beatae. Nulla aperiam enim accusantium quae doloribus, nisi
+                saepe praesentium in atque, omnis fugit rem id veniam dicta
+                impedit eos facilis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- seção sobre a empresa -->
+      <div class="footer-container">
+        <section>
+          <div class="about-container">
+            <div class="about-card">
+              <i class="bi bi-server"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                voluptatem placeat rem pariatur explicabo sunt natus repellendus
+                ipsam esse. Nulla pariatur accusantium repellendus, repudiandae
+                laboriosam consequuntur qui consectetur odio nihil.
+              </p>
+            </div>
+            <div class="about-card middle-card">
+              <i class="bi bi-briefcase-fill"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                voluptatem placeat rem pariatur explicabo sunt natus repellendus
+                ipsam esse. Nulla pariatur accusantium repellendus, repudiandae
+                laboriosam consequuntur qui consectetur odio nihil.
+              </p>
+            </div>
+            <div class="about-card">
+              <i class="bi bi-tablet-fill"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                voluptatem placeat rem pariatur explicabo sunt natus repellendus
+                ipsam esse. Nulla pariatur accusantium repellendus, repudiandae
+                laboriosam consequuntur qui consectetur odio nihil.
+              </p>
+            </div>
+          </div>
+        </section>
+        <footer>
+            <div class="form-container">
+                <div class="form-background">
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <textarea name="message" id="message" placeholder="Sua mensagem"></textarea>
+                        <input type="submit" value="Enviar" class="submit">
+                    </form>
                 </div>
             </div>
-        </header>
+            <div class="copyright">
+                <p>Copyright 2019 - Charles D. A. dos Santos</p>
+            </div>
+        </footer>
+      </div>
     </div>
-</body>
+  </body>
 </html>
